@@ -1,0 +1,47 @@
+@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (orientation: portrait)  {
+    .navigation{
+        justify-content: space-between;
+        padding: 16px;
+
+    }
+    html,body{
+        overflow-x: hidden;
+    }
+    .squares{
+        /* margin-left: 16px; */
+        margin: 0 16px;
+    }
+    /* .form img {
+        width: 50%;
+    } */
+    .form {
+        display: inline-flex;
+        /* width: 100%; */
+        /* justify-content: center; */
+        padding: -5px;
+        /* margin: 0 16px; */
+        margin: 16px;
+    }
+    .list input, textarea {
+        width: 95%;
+    }
+    .line {
+        width: 739PX;
+        height: 1px;
+        background-color: white;
+        margin-top: 34px;
+        position: relative;
+        left: 79px;
+    }
+}
+/* for Iphones */
+/* @media  screen and (min-device-width: 480px){
+    .navigation{
+        width: 100%;
+        display: none;
+    }
+    .navs{
+        display: none;
+    }
+
+} */
