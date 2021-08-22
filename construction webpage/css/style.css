@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.container{
+    width: 90%;
+    margin: 2rem auto;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(12 30 51);
+}
+.logo img{
+    width: 15rem;
+}
+.links a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.icons a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: white;
+}
+.icons a:hover{
+    color: #ffae00;;
+}
+.mainpg{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/home-parallax.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    
+}
+.content{
+    text-align: center;
+    color: white;
+    width: 82%;
+}
+.heading{
+    font-size: 37px;
+    margin-bottom: 16px;
+}
+
+.content p{
+    font-size: 26px;
+    margin-bottom: 14px;
+}
+.buttons a{
+    border: 2px solid white;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    margin-left: 11px;
+}
+.buttons a:hover{
+    background-color: #ffae00;;
+    border: #ffae00;;
+}
+.cards{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 50px;
+    
+}
+.card{
+    width: 25%;
+    margin-left: 30px;
+}
+.card hr{
+    width: 60px;
+    background-color: #ffae00;
+    border: 1px solid #ffae00;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.achievements{
+    width: 100%;
+    background-color: #ffae00;
+    display: flex;
+    justify-content: center;
+    padding: 20px 65px;
+}
+.achieve{
+    width: 25%;
+    margin-left: 10px;
+    text-align: center;
+}
+.achieve p{
+    text-align: center;
+}
+.container{
+    padding: 23px;
+    text-align: center;
+}
+.box{
+    display: flex;
+    margin-bottom: 97px;
+    text-align: right;
+}
+.box1{
+    text-align: left;
+}
+.left{
+   width: 80%;
+}
+.cols{
+    margin-top: 30px;
+}
+.right{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ffae00;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+.cols{
+    display: flex;
+}
+.blogsites{
+    text-align: center;
+    padding: 50px 0px;
+}
+.blogs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.bcol{
+    width: 30%;
+    margin-left: 20px;
+    border: 1px solid white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    padding: 10px;
+    margin-top: 30px;
+    text-align: left;
+}
+.bcol h4{
+    margin-bottom: 10px;
+}
+.bcol img{
+    width: 100%;
+    padding:0;
+    margin-bottom: 10px;
+}
+.bcol a, .far{
+    color: #ffae00;
+}
+.planbox{
+    padding: 50px;
+    background-color: #888a8c3d;
+}
+.choosing{
+    text-align: center;
+    width: 50%;
+    margin: 10px auto;
+}
+.choosing h1{
+    margin-bottom: 30px;
+}
+.plans{
+   display: flex;
+   justify-content: center;
+   margin-top: 25px;
+}
+.plan{
+    width: 19%;
+    line-height: 60px;
+    text-align: center;
+    margin-left: 55px;
+    border: 1px solid #888a8c1a;
+    border-radius: 29px;
+    background-color: white;
+    
+}
+.plan h1{
+    padding: 24px;
+}
+.button{
+    font-size: 34px;
+}
+.plan:hover{
+    background-color: rgba(245, 245, 245, 0.822);
+    
+}
+.button{
+    border-radius: 0px 0px 29px 29px;
+    background-color: #ffae00;
+    padding: 0px;
+}
+footer{
+    width: 100%;
+   background-color: orange;
+  color: white;
+  padding: 1%;
+}
+#icons p{
+    margin-bottom: 1rem;
+}
+#fineMe{
+   width: 80%;
+   margin: 0% auto;
+}
+#links{
+    margin-bottom: 1rem;
+}
+#icons{
+    text-align: center;
+}
+.fab{
+    color: white;
+}
+.fas{
+    color: var(--primary);
+}
+.mobileBar{
+    display: none;
+}

@@ -1,0 +1,241 @@
+@media screen and (max-width:760px) {
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden; 
+    }
+    .mainpg{
+        height: 60vh;
+    }
+   .links, .icons{
+       display: none;
+   }
+   .mobileBar{
+       display: block !important;
+   }
+   .mobileBar .fas{
+       font-size: 42px;
+       color: white;
+   }
+   .navigation {
+       z-index: 10;
+        display: flex;
+        /* justify-content: center; */
+        justify-content: space-between;
+        padding: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        position: fixed;
+        width: 100%;
+        background-color: rgb(12 30 51);
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo img {
+        width: 13rem;
+    }
+
+    .content p{
+        display: none !important;
+    }
+    .buttons{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .buttons a{
+        margin-top: 12px;
+        width: 75%;
+    }
+    .heading{
+        font-weight: bold;
+        line-height: 43px;
+        font-size: 20px;
+    }
+    .heading h2{
+        font-size: 2rem;
+    }
+    .cards {
+        display: block;
+        /* width: 100%; */
+        /* justify-content: center; */
+        padding: 20px;
+    }
+    .card {
+        width: 100%;
+        margin-top: 16px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .card hr{
+        position: relative;
+        left: 115px;
+        width: 100px;
+    }
+    .achievements {
+        width: 100%;
+        background-color: #ffae00;
+        display: block;
+        /* justify-content: center; */
+        /* padding: 20px 65px; */
+        padding: 30px;
+    }
+    .achieve {
+        width: 100%;
+        /* margin-left: 10px; */
+        text-align: center;
+        margin-top: 10px;
+    }
+    .fin{
+        margin-bottom: 10px;
+    }
+    .cols{
+        display: block;
+    }
+    .col-4{
+        width: 100%;
+    }
+    .col-4 img{
+        display: none !important;
+    }
+    .box{
+        align-items: center;
+        text-align: center;
+        /* justify-content: center; */
+        flex-direction: column-reverse;
+        margin-bottom: 45px;
+    }
+    .right{
+        margin-bottom: 15px;
+    }
+    .box1{
+        display: flex;
+        flex-direction: column;
+    }
+    .blogsites{
+        padding: 0px;
+    }
+    .blogs{
+        display: block;
+    }
+    .bcol{
+        margin-left: 0px;
+    }
+    .bcol img{
+        display: block !important;
+    }
+    .planbox{
+        padding: 22px;
+    }
+    .choosing{
+        width: 100%;
+    }
+    .col-3{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .plan{
+        line-height: 71px;
+        margin-bottom: 16px;
+    }
+    .plans{
+        display: block;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden; 
+    }
+    .mainpg{
+        height: 75vh;
+    }
+    .navigation{
+        display: block;
+        padding: 15px;
+        position: absolute;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    .icons{
+        display: block;
+        position: absolute;
+        top: 27px;
+        right: 26px;
+    }
+    .links{
+        position: sticky !important;
+        top: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+    .cards{
+        padding: 25px;
+    }
+    .card{
+        margin-left: 24px;
+    }
+    .achievements{
+        padding: 20px 0px;
+    }
+    .container{
+        padding: 0;
+    }
+    .image{
+        display: none;
+    }
+    .col-4{
+        width: 100%;
+    }
+    .box{
+        flex-direction: column-reverse;
+        /* justify-content: center; */
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .right{
+        margin-bottom: 10px;
+    }
+    .box1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .bcol{
+        margin-left: 0px;
+    }
+    .blogs{
+        display: block;
+    }
+    .planbox{
+        padding: 22px;
+    }
+    .choosing{
+        width: 100%;
+    }
+    .col-3{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .plan{
+        line-height: 71px;
+        margin-bottom: 16px;
+    }
+    .plans{
+        width: 65%;
+        display: block;
+        margin: 100px auto;
+    }
+}
