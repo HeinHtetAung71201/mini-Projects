@@ -13,13 +13,33 @@
     <link rel="stylesheet" href="css/mediaScreen.css">
 </head>
 <body>
-    
-        <header>
-            <div class="navigation">
-                <div class="logo">
+                <div class="navigation">
+                    <div class="logo">
+                        <img src="img/logo-2.png" alt="">
+                    </div>
+                    <div class="links">
+                        <a href="">HOME</a>
+                        <a href="">ELEMENTS</a>
+                        <a href="">FEATURES</a>
+                        <a href="">EXTRAS</a>
+                        <a href="">PAGES</a>
+                        <a href="">BLOGS</a>
+                        <a href="">GALLERY</a>
+                        <a href="">SHOP</a>
+                    </div>
+                    
+                    <div class="icons">
+                        <a href=""><i class="fas fa-search"></i></a>
+                        <a href=""><i class="fas fa-shopping-cart"></i></a>
+                    </div>
+                    <div class="mobileBar" >
+                       <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+                <div class="logoforpad">
                     <img src="img/logo-2.png" alt="">
                 </div>
-                <div class="links">
+                <div class="linksforpad">
                     <a href="">HOME</a>
                     <a href="">ELEMENTS</a>
                     <a href="">FEATURES</a>
@@ -28,17 +48,14 @@
                     <a href="">BLOGS</a>
                     <a href="">GALLERY</a>
                     <a href="">SHOP</a>
-                    
                 </div>
-                <div class="icons">
+                
+                <!-- <div class="iconsforpad">
                     <a href=""><i class="fas fa-search"></i></a>
                     <a href=""><i class="fas fa-shopping-cart"></i></a>
-                </div>
-                <div class="mobileBar" >
-                   <i class="fas fa-bars"></i>
-                </div>
-            </div>
-        </header>
+                </div> -->
+            
+            
         <main>
             <div class="mainpg">
               <!-- <div class="overlay"></div> -->
@@ -362,10 +379,21 @@
         <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
         <script src="Counter-Up-master/jquery.counterup.min.js"></script>
         <script>
+            let ipadScreen= screen.width;
+            let ipadProScreen= screen.width;
+            let navigation= document.querySelector(".navigation");
+            if(ipadProScreen==1024 || ipadScreen==768){
+                // alert("this is working")
+                navigation.remove();
+                $(".logoforpad").addClass(".activelogo");
+                $(".linksforpad").addClass(".activelinks");
+                
+            }
             $('.counter').counterUp({
                 delay: 10,
                 time: 1000
             });
+            
         </script>
 </body>
 </html>

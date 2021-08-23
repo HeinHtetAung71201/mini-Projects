@@ -23,15 +23,22 @@
 }
 .navigation{
     display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    padding: 10px;
-    position: fixed;
     width: 100%;
-    background-color: rgb(12 30 51);
+    background: rgb(12 30 51);
+    /* justify-content: stretch; */
+    justify-content: space-around;
+    padding: 15px;
+    position: fixed;
 }
+/* .navigation{
+    display: flex;
+    align-items: center;
+} */
 .logo img{
     width: 15rem;
+}
+.links{
+   
 }
 .links a{
     text-decoration: none;
@@ -254,5 +261,11 @@ footer{
     color: var(--primary);
 }
 .mobileBar{
+    display: none;
+}
+.linksforpad{
+    display: none;
+}
+.iconsforpad{
     display: none;
 }

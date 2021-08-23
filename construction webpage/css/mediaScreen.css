@@ -7,7 +7,7 @@
         overflow-x: hidden; 
     }
     .mainpg{
-        height: 60vh;
+        height: 87vh;
     }
    .links, .icons{
        display: none;
@@ -27,7 +27,7 @@
         padding: 10px;
         padding-left: 15px;
         padding-right: 15px;
-        position: fixed;
+        
         width: 100%;
         background-color: rgb(12 30 51);
     }
@@ -149,13 +149,6 @@
 
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-    html,body{
-        width: 100%;
-        height: 100%;
-        margin: 0px;
-        padding: 0px;
-        overflow-x: hidden; 
-    }
     .mainpg{
         height: 75vh;
     }
@@ -238,4 +231,37 @@
         display: block;
         margin: 100px auto;
     }
+    .activeLogo{
+        display: block;
+        
+    }
+    .logoforpad{
+        display: flex;
+        width: 100%;
+        background: rgb(12 30 51);
+        /* justify-content: stretch; */
+        justify-content: center;
+        padding: 15px;
+    }
+    .logoforpad img{
+        width: 15rem;
+        
+    }
+    .linksforpad{
+        background-color:rgb(12 30 51) ;
+        padding: 14px 2px;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        color: white;
+        position: sticky;
+        top: 0px;
+    }
+    .linksforpad a{
+        color: white;
+    }
+    .activelinks{
+        display: block;
+    }
+    
 }
