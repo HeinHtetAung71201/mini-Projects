@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1920 695.04"
+   version="1.1"
+   id="svg17"
+   sodipodi:docname="footer111.svg"
+   inkscape:version="1.1 (1:1.1+202105261517+ce6663b3b7)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview19"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.80833333"
+     inkscape:cx="959.38145"
+     inkscape:cy="347.01031"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg17" />
+  <defs
+     id="defs9">
+    <style
+       id="style2">.cls-1{fill:url(#linear-gradient);}</style>
+    <linearGradient
+       id="linear-gradient"
+       x1="2148.48"
+       y1="347.52"
+       x2="960"
+       y2="347.52"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#6156f9"
+         id="stop4" />
+      <stop
+         offset="1"
+         stop-color="#1a129f"
+         id="stop6" />
+    </linearGradient>
+    <style
+       id="style21">.cls-1{fill:url(#linear-gradient);}</style>
+    <linearGradient
+       id="linear-gradient-3"
+       x1="2148.48"
+       y1="293.89"
+       x2="960"
+       y2="293.89"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1,0,0,1,1634.9052,312.30085)">
+      <stop
+         offset="0"
+         stop-color="#6156f9"
+         id="stop23" />
+      <stop
+         offset="1"
+         stop-color="#1a129f"
+         id="stop25" />
+    </linearGradient>
+    <style
+       id="style2-5">.cls-1{fill:url(#linear-gradient);}</style>
+    <style
+       id="style21-6">.cls-1{fill:url(#linear-gradient);}</style>
+    <linearGradient
+       id="linear-gradient-3-2"
+       x1="2148.48"
+       y1="293.89"
+       x2="960"
+       y2="293.89"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1,0,0,1,1919.7825,110.77673)">
+      <stop
+         offset="0"
+         stop-color="#6156f9"
+         id="stop23-9" />
+      <stop
+         offset="1"
+         stop-color="#1a129f"
+         id="stop25-1" />
+    </linearGradient>
+    <linearGradient
+       id="linear-gradient-3-2-7"
+       x1="2148.48"
+       y1="293.89001"
+       x2="960"
+       y2="293.89001"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1,0,0,1,1920.2755,111.41705)">
+      <stop
+         offset="0"
+         stop-color="#6156f9"
+         id="stop23-9-0" />
+      <stop
+         offset="1"
+         stop-color="#1a129f"
+         id="stop25-1-9" />
+    </linearGradient>
+  </defs>
+  <title
+     id="title11">Asset 3</title>
+  <path
+     class="cls-1"
+     d="M 0.27551166,377.06706 V 699.19703 H 1920.2755 V 332.59702 C 1897.3921,307.27531 1827.5803,306.04884 1791.3403,319.51551 1422.0231,389.03964 1233.6118,276.0605 1035.6019,149.2505 910.09194,68.860502 793.97552,66.957012 630.3955,200.81703 c -23.97118,19.67545 -49.07417,37.93003 -75.18,54.66999 -212.24,135.72004 -404.1,105.73999 -554.93998834,121.58004 z"
+     id="path32"
+     style="fill:url(#linear-gradient-3-2-7)"
+     sodipodi:nodetypes="ccccccccc" />
+  <metadata
+     id="metadata1207">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Asset 3</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

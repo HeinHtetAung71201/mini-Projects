@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<div class="loaderContainer">
+    <div class="loader">Loading...</div>
+</div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business profile</title>
+    <style>
+        
+
+        .loader {
+  font-size: 10px;
+  margin: 50px auto;
+  text-indent: -9999em;
+  width: 11em;
+  height: 11em;
+  border-radius: 50%;
+  background: #014af4;
+  background: -moz-linear-gradient(left, #014af4 10%, rgba(1,74,244, 0) 42%);
+  background: -webkit-linear-gradient(left, #014af4 10%, rgba(1,74,244, 0) 42%);
+  background: -o-linear-gradient(left, #014af4 10%, rgba(1,74,244, 0) 42%);
+  background: -ms-linear-gradient(left, #014af4 10%, rgba(1,74,244, 0) 42%);
+  background: linear-gradient(to right, #014af4 10%, rgba(1,74,244, 0) 42%);
+  position: relative;
+  -webkit-animation: load3 1.4s infinite linear;
+  animation: load3 1.4s infinite linear;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.loader:before {
+  width: 50%;
+  height: 50%;
+  background: #014af4;
+  border-radius: 100% 0 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+}
+.loader:after {
+  background: #f9fbfb;
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  content: '';
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+@-webkit-keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.loaderContainer{
+            display: flex;
+            justify-content: center;
+            align-items:  center;
+            height: 100vh;
+            position: fixed;
+            width: 100%;
+            z-index: 3000;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="_project/css/style.css">
+    <link rel="stylesheet" href="vendor/stylling/theme.css">
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/animate_it/animate.css">
+    <link rel="stylesheet" href="vendor/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="vendor/slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="courselStyling/coursel.css">
+    <link rel="stylesheet" href="vendor/feather-icons-web/feather.css">
+   
+</head>
+<body>
+    
+<header class="container-fluid navigation animate__animated animate__slideInDown">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 ">
+                            <nav class=" navbar navbar-expand-lg  navbar-light ">
+                                    <a class="navbar-brand" href="#">
+                                        <img src="_data/logo-long.svg" alt="">
+                                    </a>
+                                        <button class="navbar-toggler border-0 startbtn" >
+                                            <i class="fas fa-bars fa-2x menu-icon"></i>
+                                        </button>
+                
+                                        <div class="collapse navbar-collapse justify-content-end contentBox" id="navbarSupportedContent">
+                                            <ul class="navbar-nav">
+                                                <li class="nav-item">
+                                                    <a class="nav-link text-uppercase" href="#home">Home</a>
+                                                </li>
+                
+                                                <li class="nav-item">
+                                                    <a class="nav-link text-uppercase" href="#about">About</a>
+                                                </li>
+                
+                                                <li class="nav-item">
+                                                    <a class="nav-link text-uppercase" href="#services">Services</a>
+                                                </li>
+                
+                                                <li class="nav-item">
+                                                    <a class="nav-link text-uppercase" href="#pricing">Pricing</a>
+                                                </li>
+                
+                                                <li class="nav-item">
+                                                    <a class="nav-link text-uppercase" href="#contact">Contact Us</a>
+                                                </li>
+                
+                                            </ul>
+                                        </div>
+                                
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+    </header>
+    <!-- <header class="container-fluid site-nav animated slideInDown">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 px-0">
+                        <nav class="navbar align-items-center d-flex navbar-expand-lg navbar-dark">
+                            <a class="navbar-brand" href="#">
+                                <img src="_data/logo-long.svg" class="site-logo" alt="">
+                            </a>
+                            <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="fa fa-bars fa-2x menu-icon"></i>
+                            </button>
+    
+                            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase" href="#home">Home</a>
+                                    </li>
+    
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase" href="#about">About</a>
+                                    </li>
+    
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase" href="#services">Services</a>
+                                    </li>
+    
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase" href="#pricing">Pricing</a>
+                                    </li>
+    
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase" href="#contact">Contact Us</a>
+                                    </li>
+    
+                                </ul>
+                            </div>
+                        </nav>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header> -->
+    <section class="container-fluid min-vh-100 align-items-center d-flex home max-height" id="home">
+        <div class=" position-static d-flex  align-items-center justify-content-center d-none d-md-block" style="left: 40px !important;">
+           <div class="d-flex align-items-lg-stretch flex-column">
+                <div class="d-flex justify-content-center rotate animate__animated animate__backInDown animate__delay-0.7s">
+                    <a>
+                        <i class="text-primary fab fa-facebook-f "></i>
+                    </a>
+                </div>
+                <div class="d-flex justify-content-center rotate mt-4 animate__animated animate__backInDown animate__delay-1s">
+                    <a href="" class=" text-primary">
+                        <i class="text-primary fab fa-google-plus-g"></i>
+                    </a>
+                </div>
+                <div class="d-flex justify-content-center mt-4 animate__animated animate__backInDown animate__delay-2s">
+                    <a href="" class=" text-primary">
+                        <i class="text-primary fab fa-twitter"></i>
+                    </a>
+                </div>
+                <div class="d-flex justify-content-center mt-4 animate__animated animate__backInDown animate__delay-3s">
+                    <a href="" class=" text-primary">
+                        <i class="text-primary fab fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="d-flex justify-content-center mt-4 animate__animated animate__backInDown animate__delay-4s">
+                    <div class="line bg-primary" style="width: 6px; height: 26px;"></div>
+                </div>
+           </div>
+        </div>
+        <div class="container">
+            <div class="row margin margin-top">
+                <div class="col-12 col-md-6 d-flex align-items-center ">
+                    <div class="text-uppercase wow animate__slideInLeft" >
+                        <h4>social media</h4>
+                        <h1 class=" fw-bolder">for Business!</h1>
+                        <p class=" text-black-50 ">performance based social media agency, <br class=" d-none d-md-block"> 
+                            we are lorem media
+                        </p>
+                        <a class=" btn btn-primary text-uppercase rounded-pill">get a free audit</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 my-5   ">
+                    <div class="wow animate__slideInRight">
+                        <img src=" _data/content-1.svg" alt="" class="svg-home w-100">
+                    </div>
+                </div>
+            </div>
+            <div class="row d-none d-xl-block">
+                <div class="col-12 d-flex justify-content-center align-items-center">
+                    <div class="mouse-up-down position-absolute border d-flex align-items-center justify-content-md-center" style="width:77px; height:77px; border-radius:50%; bottom: 45px; box-shadow:0px 10px 16px -8px rgba(0,0,0,0.85);">
+                        <img src="_data/mouse.svg" alt="" class="object">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class=" container-fluid   align-items-center d-flex mt-md-4" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                   <div class="w-100 wow animate__slideInLeft">
+                        <img src="_data/content-2.svg" alt="" class="w-100">
+                   </div>
+                        
+                </div>
+                <div class="col-12 col-md-6 d-flex align-items-center second-pg ">
+                    <div class="w-100 wow animate__slideInRight">
+                        <h4 class=" text-secondary">Biography</h4>
+                        <h1 class="">Who We Are </h1>
+                        <p class="text-black-50">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus veritatis ea itaque dignissimos saepe assumenda ipsa maxime odit, tenetur eveniet, quod explicabo illo reprehenderit mollitia temporibus corporis labore? Laboriosam, molestias.
+                        </p>
+                        <p class="text-black-50">it's 2021, time to sink or swim</p>
+                        <button class="btn btn-primary text-uppercase rounded-pill">See More</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid my-5"  style=" background-image: url('_data/bg-3.svg'); background-position: center; background-size:contain;" id="services">
+        <div class="container" >
+
+            <div class="row">
+                <div class="col-12">
+                    <h4 class=" text-secondary text-uppercase">Our Services</h4>
+                    <h1 class="">What We Offer</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4 mt-4">
+                    <div class="card h-100 border-0 shadow-sm mb-1 bg-body rounded responsiveSize ">
+                        <div class="d-flex justify-content-center p-3 ">
+                            <img src="_data/icon-1.svg" alt="" class=" w-25">
+                        </div>
+                        <div class="card-body">
+                            <h6 class=" card-title text-uppercase"> Social Media Management</h6>
+                            <p class="card-text text-black-50">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus beatae eius asperiores.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus beatae eius asperiores.
+                            </p>
+                            <div class="d-flex justify-content-end">
+                                <button class="btn btn-primary text-uppercase">See More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mt-4 col-md-4">
+                    <div class="card h-100 border-0 shadow-sm mb-1 bg-body rounded responsiveSize wow animate__fadeInDown">
+                        <div class="d-flex justify-content-center p-3">
+                            <img src="_data/icon-2.svg" alt="" class=" w-25">
+                        </div>
+                        <div class="card-body">
+                            <h6 class=" card-title text-uppercase"> Socials Growth Campaign</h6>
+                            <p class="card-text text-black-50">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus beatae eius asperiores.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus beatae eius asperiores.
+                            </p>
+                            <div class="d-flex justify-content-end">
+                                <button class="btn btn-primary text-uppercase">See More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mt-4 col-md-4" >
+                    <div class="card h-100 border-0 shadow-sm mb-1 bg-body rounded responsiveSize ">
+                        <div class="d-flex justify-content-center p-3">
+                            <img src="_data/icon-3.svg" alt="" class=" w-25">
+                        </div>
+                        <div class="card-body">
+                            <h6 class=" card-title text-uppercase"> Branding and Media</h6>
+                            <p class="card-text text-black-50">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus beatae eius asperiores.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus beatae eius asperiores.
+                            </p>
+                            <div class="d-flex justify-content-end">
+                                <button class="btn btn-primary text-uppercase">See More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container py-5 mt-md-5">
+            <div class="row">
+                <div class="col-12 mt-4 col-md-4" >
+                    <div class="card h-100  border-0 shadow-sm mb-1 bg-body rounded responsiveSize wow animate__fadeInDown">
+                        <div class="d-flex justify-content-center p-3">
+                            <img src="_data/icon-4.svg" alt="" class=" w-25">
+                        </div>
+                        <div class="card-body">
+                            <h6 class=" card-title text-uppercase"> Influencer marketing</h6>
+                            <p class="card-text text-black-50">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus beatae eius asperiores.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus beatae eius asperiores.
+                            </p>
+                            <div class="d-flex justify-content-end">
+                                <button class="btn btn-primary text-uppercase">See More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mt-4 col-md-4" >
+                    <div class="card h-100 border-0 shadow-sm mb-1 bg-body rounded responsiveSize ">
+                        <div class="d-flex justify-content-center p-3">
+                            <img src="_data/icon-5.svg" alt="" class=" w-25">
+                        </div>
+                        <div class="card-body">
+                            <h6 class=" card-title text-uppercase"> Social Media paid advertising</h6>
+                            <p class="card-text text-black-50">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus beatae eius asperiores.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus beatae eius asperiores.
+                            </p>
+                            <div class="d-flex justify-content-end">
+                                <button class="btn btn-primary text-uppercase">See More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mt-4 col-md-4" >
+                    <div class="card h-100 border-0 shadow-sm mb-1 bg-body rounded responsiveSize wow animate__fadeInDown">
+                        <div class="d-flex justify-content-center p-3">
+                            <img src="_data/icon-6.svg" alt="" class=" w-25">
+                        </div>
+                        <div class="card-body">
+                            <h6 class=" card-title text-uppercase">contents marketing Services</h6>
+                            <p class="card-text text-black-50">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus beatae eius asperiores.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus beatae eius asperiores.
+                            </p>
+                            <div class="d-flex justify-content-end">
+                                <button class="btn btn-primary text-uppercase">See More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid background py-4" id="pricing">
+        <div class="row py-3">
+            <div class="col-12 d-flex justify-content-center ">
+               <div class=" text-center">
+                    <h4 class="text-secondary">Pricing</h4>
+                    <h1>Our Pricing</h1>
+               </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row d-flex justify-content-center multi-pack">
+                 <div class="col-12 col-md-4 px-2">
+                    <div class="card h-100 border-0 shadow-sm mb-1 bg-body rounded responsiveSize">
+                        <div class="card-body text-center">
+                            <h5 class=" card-title mt-2">
+                                Premium Package
+                            </h5>
+                            <p class="card-text text-black-50 mt-4">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus beatae eius asperiores.
+                                 Delectus beatae eius asperiores.
+                            </p>
+                            <h5 class=" fw-bolder text-primary mt-5">$ 170</h5>
+                            <a href="" class=" btn btn-outline-primary  mt-5 mb-2"> See Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 px-2">
+                    <div class="card h-100 border-0 shadow-sm mb-1 bg-body rounded responsiveSize">
+                        <div class="card-body text-center">
+                            <h5 class=" card-title mt-2">
+                                Premium Package
+                            </h5>
+                            <p class="card-text text-black-50 mt-4">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus beatae eius asperiores.
+                                 Delectus beatae eius asperiores.
+                            </p>
+                            <h5 class=" fw-bolder text-primary mt-5">$ 170</h5>
+                            <a href="" class=" btn btn-outline-primary  mt-5 mb-2"> See Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 px-2">
+                    <div class="card h-100 border-0 shadow-sm mb-1 bg-body rounded">
+                        <div class="card-body text-center">
+                            <h5 class=" card-title mt-2">
+                                Premium Package
+                            </h5>
+                            <p class="card-text text-black-50 mt-4">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus beatae eius asperiores.
+                                 Delectus beatae eius asperiores.
+                            </p>
+                            <h5 class=" fw-bolder text-primary mt-5">$ 170</h5>
+                            <a href="" class=" btn btn-outline-primary  mt-5 mb-2"> See Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 px-2">
+                    <div class="card h-100 border-0 shadow mb-1 bg-body rounded">
+                        <div class="card-body text-center">
+                            <h5 class=" card-title mt-2">
+                                Premium Package
+                            </h5>
+                            <p class="card-text text-black-50 mt-4">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus beatae eius asperiores.
+                                 Delectus beatae eius asperiores.
+                            </p>
+                            <h5 class=" fw-bolder text-primary mt-5">$ 170</h5>
+                            <a href="" class=" btn btn-outline-primary  mt-5 mb-2"> See Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 px-2">
+                    <div class="card h-100 border-0 shadow mb-1 bg-body rounded">
+                        <div class="card-body text-center">
+                            <h5 class=" card-title mt-2">
+                                Premium Package
+                            </h5>
+                            <p class="card-text text-black-50 mt-4">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus beatae eius asperiores.
+                                 Delectus beatae eius asperiores.
+                            </p>
+                            <h5 class=" fw-bolder text-primary mt-5">$ 170</h5>
+                            <a href="" class=" btn btn-outline-primary  mt-5 mb-2"> See Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 px-2">
+                    <div class="card h-100 border-0 shadow mb-1 bg-body rounded">
+                        <div class="card-body text-center">
+                            <h5 class=" card-title mt-2">
+                                Premium Package
+                            </h5>
+                            <p class="card-text text-black-50 mt-4">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus beatae eius asperiores.
+                                 Delectus beatae eius asperiores.
+                            </p>
+                            <h5 class=" fw-bolder text-primary mt-5">$ 170</h5>
+                            <a href="" class=" btn btn-outline-primary  mt-5 mb-2"> See Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 px-2">
+                    <div class="card h-100 border-0 shadow mb-1 bg-body rounded">
+                        <div class="card-body text-center">
+                            <h5 class=" card-title mt-2">
+                                Premium Package
+                            </h5>
+                            <p class="card-text text-black-50 mt-4">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus beatae eius asperiores.
+                                 Delectus beatae eius asperiores.
+                            </p>
+                            <h5 class=" fw-bolder text-primary mt-5">$ 170</h5>
+                            <a href="" class=" btn btn-outline-primary  mt-5 mb-2"> See Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 px-2">
+                    <div class="card h-100 border-0 shadow mb-1 bg-body rounded">
+                        <div class="card-body text-center">
+                            <h5 class=" card-title mt-2">
+                                Premium Package
+                            </h5>
+                            <p class="card-text text-black-50 mt-4">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus beatae eius asperiores.
+                                 Delectus beatae eius asperiores.
+                            </p>
+                            <h5 class=" fw-bolder text-primary mt-5">$ 170</h5>
+                            <a href="" class=" btn btn-outline-primary  mt-5 mb-2"> See Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 px-2">   
+                    <div class="card h-100 border-0 shadow mb-1 bg-body rounded">
+                        <div class="card-body text-center">
+                            <h5 class=" card-title mt-2">
+                                Premium Package
+                            </h5>
+                            <p class="card-text text-black-50 mt-4">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus beatae eius asperiores.
+                                 Delectus beatae eius asperiores.
+                            </p>
+                            <h5 class=" fw-bolder text-primary mt-5">$ 170</h5>
+                            <a href="" class=" btn btn-outline-primary  mt-5 mb-2"> See Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   <section class="container-fluid " id="contact">
+           <div class="col-12 d-flex justify-content-center text-center py-4" >
+                <div>
+                    <h4 class="text-secondary">Contact Form</h4>
+                    <h1 class="text-uppercase">Get In Touch</h1>
+                </div>
+           </div>
+            <div class="container">
+                <div class="row ">
+                    <div class="col-12 col-md-6 mb-3 wow animate__slideInLeft">
+                        <form action="" class="">
+                            <div class=" form-group">
+                                <input type="text" class=" form-control border-3 mb-3" placeholder="Name">
+                            </div>
+                            <div class=" form-group">
+                                <input type="text" class=" form-control border-3 mb-3" placeholder="Email Address">
+                            </div>
+                            <div class=" form-group">
+                                <input type="text" class=" form-control border-3 mb-3" placeholder="Phone Num.">
+                            </div>
+                            <div class=" form-group">
+                                <textarea name="" id="" cols="30" rows="7" placeholder="Message" class="px-3 border-3 form-control mb-3 rounded-2 py-2 w-100"></textarea>
+                            </div>
+                            <div class="form-group d-flex justify-content-end">
+                                <a href="" class="btn btn-primary">Send Message</a>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-12 col-md-6 ">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.070416612295!2d95.12269088762471!3d22.137616117481013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30ca9fc17521fd93%3A0x824dd79a980c5558!2sAMT%20Auto%20Service!5e1!3m2!1sen!2sde!4v1627008073114!5m2!1sen!2sde" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+            
+   </section>
+    <footer class="d-flex align-items-end  bg-graphic justify-content-center mt-4">
+        <div class="container-fluid align-items-end d-flex mb-3 justify-content-center"> 
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-3 text-white text-center mb-3">
+                        <h4>Marketing</h4>
+                        <h2>Stay In Touch..</h2>
+                        <div class="d-flex justify-content-evenly">
+                            <a href="" class=" text-primary">
+                                <i class="text-white fab fa-facebook-f"></i>
+                            </a>
+                            <a href="" class=" text-primary">
+                                <i class="text-white fab fa-google-plus-g"></i>
+                            </a>
+                            <a href="" class=" text-primary">
+                                <i class="text-white fab fa-twitter"></i>
+                            </a>
+                            <a href="" class=" text-primary">
+                                <i class="text-white fab fa-instagram"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-md-2">
+                        <ul class=" list-unstyled text-white">
+                            <li><h5>Quick Links</h5></li>
+                            <li>About</li>
+                            <li>Home</li>
+                            <li>Pricing</li>
+                            <li>Location</li>
+                            <li>Office</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-3 text-white mb-3">
+                        <table>
+                            <thead>
+                                <tr><h5>Hours</h5></tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="" style="width: 150px">Mondays:</td>
+                                    <td>  9:00-18:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Tuesday:</td>
+                                    <td>  9:00-18:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Wednesday:</td>
+                                    <td>  9:00-18:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Thursday:</td>
+                                    <td>  9:00-18:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Friday:</td>
+                                    <td>  9:00-18:00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-12 col-md-4 text-white">
+                        <h5 class="mb-2">Contact</h5>
+                        <table class=" text-center">
+                            <tbody>
+                                <tr>
+                                    <td class="" style="width:100px">
+                                        <i class="fas fa-phone-alt"></i>
+                                    </td>
+                                    <td> 09-733568383</td>
+                                </tr>
+                               
+                                
+                                <tr>
+                                    <td class="">
+                                        <i class="fas fa-envelope"></i>
+                                    </td>
+                                    <td>htethein609@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <td class="">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </td>
+                                    <td>Monywa,Sagaing Div/Myanmar</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js" referrerpolicy="no-referrer"></script>
+    <script src="vendor/slick-1.8.1/slick/slick.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="_project/js/slickusage.js"></script>
+    <script src="vendor/waypoint/lib/jquery.waypoints.min.js"></script>
+    <script src="_project/js/app.js"></script>
+    
+</body>
+</html>
