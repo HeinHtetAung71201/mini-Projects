@@ -185,3 +185,10 @@ nav a{
 } */
 .nav-link.createline{
     border-bottom: 2px solid;}
+
+    .slick-dots li button:before {
+        width: 10px !important;
+        height: 10px !important;
+        color: none !important;
+    }
+    
